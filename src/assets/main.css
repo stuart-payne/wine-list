@@ -1,0 +1,27 @@
+@import './base.css';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+.btn {
+  color: white;
+  background-color: var(--main);
+  text-decoration: none;
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  min-width: 60px;
+  font-weight: 700;
+  cursor: pointer;
+}
